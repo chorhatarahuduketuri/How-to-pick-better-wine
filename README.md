@@ -20,3 +20,6 @@ I will frame the objectives of this analysis as the answers to questions. Those 
 5. That the quality ratings of expert wine tasters would correlate with the quality ratings of casual wine drinkers. 
 
 
+## EDA
+The EDA found nothing significant that suggests I should remove any features, or that I would have any significant difficulty with any of them. They're all numerical and there's no missing data. Nothing in the initial EDA answers any of the objective-questions, though the low linear correlations between the target variable and all the prediction variables is vaguely suggestive of the answer to objective-question 4 being 'poorly'. 
+
