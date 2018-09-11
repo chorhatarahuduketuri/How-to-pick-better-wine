@@ -7,7 +7,7 @@
 ## Objectives and assumptions
 #### Objectives
 I will frame the objectives of this analysis as the answers to questions. Those questions are: 
-1. What are the most important factors in making good quality (7+) wine? 
+1. What are the most important factors in making good quality (6+) wine? 
 2. What are the most important factors in making poor quality (4-) wine?
 3. What is the most popular type of wine? 
 4. How well can the quality of wine be predicted from physicochemical measurements?
