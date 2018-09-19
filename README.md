@@ -75,9 +75,9 @@ But which of the three types was the most popular?
 
 ![Counts of Red Wine Types](code/red_wine_type_count.png)
 
-Type 0 size: 241
-Type 1 size: 814
-Type 2 size: 544
+Type 0 size: 241  
+Type 1 size: 814  
+Type 2 size: 544  
 
 ### Answer
 > For red wine, Type 1 wins, making the most popular red wine the one with the least preservatives in. 
@@ -94,10 +94,10 @@ But which of the three types was the most popular?
 
 ![Counts of White Wine Types](code/white_wine_type_count.png)
 
-Type 0 size: 1710
-Type 1 size: 756
-Type 2 size: 992
-Type 3 size: 1440
+Type 0 size: 1710  
+Type 1 size: 756  
+Type 2 size: 992  
+Type 3 size: 1440  
 
 ### Answer
 > For white wine, Type 0 wins, making the most popular white wine one with the higher acidity and alcohol. Type 3 is a close second, and is defined by lower alcohol. 
