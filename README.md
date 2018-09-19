@@ -31,7 +31,7 @@ One particular thing of interest that I have noticed is that the scores all lie 
 2. What are the most important factors in making poor quality (4-) wine?
 
 ### (Shorter) Red Wine Decision Tree
-![(Shorter) Red Wine Decision Tree](red_tree_shorter.png)
+![(Shorter) Red Wine Decision Tree]( How-to-pick-better-wine/code/red_tree_shorter.png )
 #### What answers to questions 1 and 2 does this graph give?
 In the above graph there are 9 decisions; 3 alcohol, 3 sulphates, 2 volatile acidity, and one pH.
 
