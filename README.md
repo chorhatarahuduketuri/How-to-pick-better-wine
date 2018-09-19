@@ -105,7 +105,7 @@ Interestingly, this shows that wines with attributes that experts consider to be
 ## Question 4
 4. How well can the quality of wine be predicted from physicochemical measurements?
 
-Using Support Vector Machines, the best results had Mean Absolute Errors of between 0.36 (for red wine) and 0.37 (for white wine). That's less than the rounding difference between two different quality scores, which is good enough for me. 
+> Using Support Vector Machines, the best results had Mean Absolute Errors of between 0.36 (for red wine) and 0.37 (for white wine). That's less than the rounding difference between two different quality scores, which is good enough for me. 
 
 Fortunately, that is better than the obligatory linear regression benchmark; 
 - Red Wine Mean Absolue Error: 0.502297
