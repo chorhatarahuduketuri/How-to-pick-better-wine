@@ -45,7 +45,7 @@ Similarly, in all 3 decisions about sulphates, the higher amount of sulphates le
 
 From the above, I infer that the main indicators of high quality wine are that it is strong (high alcohol content), and fresh (or properly preserved). 
 ### (Shorter) White Wine Decision Tree
-![(Shorter) White Wine Decision Tree](white_tree_shorter.png)
+![(Shorter) White Wine Decision Tree](code/white_tree_shorter.png)
 #### What answers to questions 1 and 2 does this graph give?
 As for red wine, there were 9 decisions in the tree, with 3 of them were for alcohol. Again, more alcohol lead to higher quality score predictions. This supports the above inference of strong wine being higher quality.
 
@@ -73,7 +73,7 @@ First, I needed to find out the optimal value for k. I used gridsearch to perfor
 
 But which of the three types was the most popular? 
 
-![Counts of Red Wine Types](red_wine_type_count.png)
+![Counts of Red Wine Types](code/red_wine_type_count.png)
 
 Type 0 size: 241
 Type 1 size: 814
@@ -91,7 +91,7 @@ The optimal value of k for white wine was 4.
 
 But which of the three types was the most popular? 
 
-![Counts of White Wine Types](white_wine_type_count.png)
+![Counts of White Wine Types](code/white_wine_type_count.png)
 
 Type 0 size: 1710
 Type 1 size: 756
