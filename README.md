@@ -5,7 +5,7 @@
 >Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
 ## Objectives and assumptions
-My objectives are based around my own desire to have some ability to pick good quality wines. There's a lot of detailed information and sophisticated advice about this sort of thing available for anyone willing to use a search engine, but I thought 'why not see if ML can tell me anything?' As a secondary interest, I wanted to see how useful trees are for making explainable models. 
+My objectives are based around my own desire to have some ability to pick good quality wines. There's a lot of detailed information and sophisticated advice about this sort of thing available for anyone willing to use a search engine, but I thought 'why not see if ML can tell me anything?' As a secondary interest, I wanted to see how useful decision trees are for making explainable models. 
 #### Objectives
 I will frame the objectives of this analysis as the answers to questions. Those questions are: 
 1. What are the most important factors in making good quality (6+) wine? (So I can pick good wines)
@@ -79,6 +79,7 @@ Type 0 size: 241
 Type 1 size: 814
 Type 2 size: 544
 
+### Answer
 > For red wine, Type 1 wins, making the most popular red wine the one with the least preservatives in. 
 
 ##### White wine
@@ -98,6 +99,7 @@ Type 1 size: 756
 Type 2 size: 992
 Type 3 size: 1440
 
+### Answer
 > For white wine, Type 0 wins, making the most popular white wine one with the higher acidity and alcohol. Type 3 is a close second, and is defined by lower alcohol. 
 
 Interestingly, this shows that wines with attributes that experts consider to be a negative, are the most common types of wine. 
@@ -105,6 +107,7 @@ Interestingly, this shows that wines with attributes that experts consider to be
 ## Question 4
 4. How well can the quality of wine be predicted from physicochemical measurements?
 
+### Answer
 > Using Support Vector Machines, the best results had Mean Absolute Errors of between 0.36 (for red wine) and 0.37 (for white wine). That's less than the rounding difference between two different quality scores, which is good enough for me. 
 
 Fortunately, that is better than the obligatory linear regression benchmark; 
